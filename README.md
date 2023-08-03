@@ -21,7 +21,7 @@ Nukkit上的任务插件
 </dependency>
 ```
 ## 命令
-```/ctask``` - 打开GUI界面(Player)
-```/ctask progress <group> add <player> <task>``` - 为任务组的任务的进度添加1(OP)
-```/ctask progress <group> add <player> <task> <int>``` - 为任务组的任务的进度添加进度(OP)
-```/ctask progress <group> set <player> <task> <int>``` - 为任务组的任务的进度设置进度(OP)
+```/ctask``` - 打开GUI界面(Player)</br>
+```/ctask progress <group> add <player> <task>``` - 为任务组的任务的进度添加1(OP)</br>
+```/ctask progress <group> add <player> <task> <int>``` - 为任务组的任务的进度添加进度(OP)</br>
+```/ctask progress <group> set <player> <task> <int>``` - 为任务组的任务的进度设置进度(OP)</br>
