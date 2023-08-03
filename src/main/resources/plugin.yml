@@ -1,0 +1,6 @@
+name: CTask
+api: 1.0.0
+main: me.coolmagic233.ctask.CTask
+version: 0.1
+depend:
+  - DataManager

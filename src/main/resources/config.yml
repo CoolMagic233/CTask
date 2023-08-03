@@ -1,0 +1,16 @@
+prefix:
+  enable: true
+  prefix: 任务系统
+task_group:
+  - "每日任务"
+每日任务:
+  #方便记忆的任务名称
+  - name: "bw"
+    #显示在form中的样式
+    display: "在起床中获取1次胜利 [@status] [@progress/@totalProgress]"
+    TotalProgress: 1
+    auto_finish: false
+    finish_message: "@p 完成了@task 任务"
+    finish_cmd:
+      - "console&say @p 完成了@task 任务"
+      - "sender&me 完成了@task 任务"
